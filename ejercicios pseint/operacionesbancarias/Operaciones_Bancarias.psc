@@ -1,47 +1,46 @@
 Algoritmo Operaciones_Bancarias
-	// Definimos las variables y el tipo de dato
+	
 	Definir nombre Como Cadena
 	Definir saldo, monto, comision, cheque Como Real
 	Definir opcion Como Cadena
 	Definir saldo_inicial Como Real
 	Definir contador_efectivo, contador_cheque, contador_retiros Como Entero
 	Definir suma_retiros, min_deposito, max_retiro Como Real
-	// Inicializamos las varibles que utilizaremos
+	
 	contador_efectivo <- 0
 	contador_cheque <- 0
 	contador_retiros <- 0
 	suma_retiros <- 0
 	min_deposito <- 999999
 	max_retiro <- 0
-	// Se le pide al usuario su nombre
+	
 	Escribir 'Ingresa tu nombre: '
 	Leer nombre
-	// Se le pide que ingrese su saldo inicial
+	
 	Escribir 'Inrgesa tu saldo inicial: '
 	Leer saldo
 	saldo_inicial <- saldo
-	// Se mostra en pantalla una bienvenida a su cuenta del usuario y su monto inicial que coloco
+	
 	Escribir 'Bienvenido, ', nombre
 	Escribir 'Su saldo inicial es de: ', saldo
-	// Se usara un ciclo Do while para las opciones
+	
 	Repetir
-		// Se escribio los diferentes opciones que puede ingresar el usuario
+		
 		Escribir '--- Opciones ---'
 		Escribir '(D) Deposito'
 		Escribir '(R) Retiro'
 		Escribir '(F) Fin'
 		Leer opcion
-		// Se uso condicionales para evaluar la opcion que desea escoger
-		// Opciones de deposito
+		
 		Si opcion=='D' Entonces
 			Escribir '--- Opciones de Deposito ---'
 			Escribir ' (E) Efectivo'
 			Escribir ' (C) Cheque'
 			Leer opcion
 		FinSi
-		// Opcion de efectivo
+		
 		Si opcion=='E' Entonces
-			// Se le pedira la  cantidar que desea agregar
+			
 			Escribir 'Ingrese la cantidad que desea agregar:'
 			Leer monto
 			saldo <- saldo+monto
@@ -51,7 +50,7 @@ Algoritmo Operaciones_Bancarias
 			FinSi
 			Escribir 'Su saldo actual es: ', saldo
 		SiNo
-			// Opcion de cheque y se le descontara el 1 MOD
+			
 			Si opcion=='C' Entonces
 				Escribir 'Ingrese la cantidad del cheque'
 				Leer cheque
@@ -64,7 +63,7 @@ Algoritmo Operaciones_Bancarias
 				Escribir 'Su saldo actualizado es: ', saldo
 			FinSi
 		FinSi
-		// Opcion de retiro
+		
 		Si opcion=='R' Entonces
 			Escribir 'Ingrese la cantidad a restirar'
 			Leer monto

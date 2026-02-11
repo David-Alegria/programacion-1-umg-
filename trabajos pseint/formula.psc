@@ -1,13 +1,10 @@
 Algoritmo formula
-	definir valor como numerico
-	escribir "ingrese un valor numerico"
-	leer valor
-	si valor Mod 2 = 0 Entonces
-		escribir "El valor: ", valor,  "Es par"
-	sino 
-		escribir "el valor: ", valor,  "Es impar"
-
-			
-	
+	Definir valor Como Real
+	Escribir 'ingrese un valor numerico'
+	Leer valor
+	Si valor MOD 2=0 Entonces
+		Escribir 'El valor: ', valor, 'Es par'
+	SiNo
+		Escribir 'el valor: ', valor, 'Es impar'
 	FinSi
 FinAlgoritmo

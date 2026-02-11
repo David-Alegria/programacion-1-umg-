@@ -1,32 +1,28 @@
 Algoritmo MaxMin
-	definir N Como Entero
-	definir max como real 
-	definir min como real 
-	definir valor como real
-	definir i como entero 
-	
-	escribir "Cuntos numeros desea agregar: "
-	leer N
+	Definir N Como Entero
+	Definir max Como Real
+	Definir min Como Real
+	Definir valor Como Real
+	Definir i Como Entero
+	Escribir 'Cuntos numeros desea agregar: '
+	Leer N
 	i = 1
-	mientras i <= N hacer
-		escribir "ingrese un valor: "
+	Mientras i<=N Hacer
+		Escribir 'ingrese un valor: '
 		Leer valor
-		
-		si i = 1 Entonces
-			min <-valor
-			max <-valor
-		Sino
-			si valor < min entonces
-				min = valor
+		Si i=1 Entonces
+			min <- valor
+			max <- valor
+		SiNo
+			Si valor<min Entonces
+				min <- valor
 			FinSi
-			
-			si valor > max Entonces
-				max <-valor
+			Si valor>max Entonces
+				max <- valor
 			FinSi
 		FinSi
-		i <- i +1;
+		i <- i+1
 	FinMientras
-	
-	escribir "El valor maximo es : ", max
-	escribir "El valor minimo es : ", min
+	Escribir 'El valor maximo es : ', max
+	Escribir 'El valor minimo es : ', min
 FinAlgoritmo
