@@ -1,5 +1,6 @@
 Algoritmo calculohora
-	definir horaAingresar como entero //El nombre de la variable lo cambie a la secuencia camel case
+	// El nombre de la variable lo cambie a la secuencia camel case
+	Definir horaAingresar Como Entero
 	Escribir 'Ingrese una hora entre (0y23): '
 	Leer horaAingresar
 	Si horaAingresar<0 O horaAingresar>23 Entonces

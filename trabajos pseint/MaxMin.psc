@@ -1,28 +1,29 @@
 Algoritmo MaxMin
-	Definir N Como Entero
-	Definir max Como Real
-	Definir min Como Real
-	Definir valor Como Real
+	//Se definieron nuevas variables con la secuencia de camel case
+	Definir numeroAingresar Como Entero
+	Definir numeroMaximo Como Real
+	Definir numeroMinimo Como Real
+	Definir valorDelNumero Como Real
 	Definir i Como Entero
 	Escribir 'Cuntos numeros desea agregar: '
-	Leer N
+	Leer numeroAingresar
 	i = 1
-	Mientras i<=N Hacer
+	Mientras i<=numeroAingresar Hacer
 		Escribir 'ingrese un valor: '
-		Leer valor
+		Leer valorDelNumero
 		Si i=1 Entonces
-			min <- valor
-			max <- valor
+			numeroMinimo <- valorDelNumero
+			numeroMaximo <- valorDelNumero
 		SiNo
-			Si valor<min Entonces
-				min <- valor
+			Si valorDelNumero<numeroMinimo Entonces
+				numeroMinimo <- valorDelNumero
 			FinSi
-			Si valor>max Entonces
-				max <- valor
+			Si valorDelNumero>numeroMaximo Entonces
+				numeroMaximo <- valorDelNumero
 			FinSi
 		FinSi
 		i <- i+1
 	FinMientras
-	Escribir 'El valor maximo es : ', max
-	Escribir 'El valor minimo es : ', min
+	Escribir 'El valor maximo es : ', numeroMaximo
+	Escribir 'El valor minimo es : ', numeroMinimo
 FinAlgoritmo

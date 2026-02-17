@@ -1,10 +1,10 @@
 Algoritmo calculoedad
-	Definir ANONACIMIENTO Como Entero
-	Definir ANOACTUAL Como Entero
+	Definir añoNACIMIENTO Como Entero
+	Definir añoACTUAL Como Entero
 	Escribir 'Ingrese su año de nacimiento'
-	Leer ANONACIMIENTO
+	Leer añoNACIMIENTO
 	Escribir 'Ingrese el año actual'
-	Leer ANOACTUAL
-	edad <- ANONACIMIENTO-ANOACTUAL
+	Leer añoACTUAL
+	edad <- añoNACIMIENTO-añoACTUAL
 	Escribir 'Su año es: ', edad, 'años'
 FinAlgoritmo
