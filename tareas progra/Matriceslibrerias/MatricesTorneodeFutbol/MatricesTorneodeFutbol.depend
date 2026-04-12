@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1775490301 source:c:\users\david\documents\programacion-1\matriceslibrerias\matricestorneodefutbol\src\equipos.cpp
+	"equipos.h"
+
+1775490301 c:\users\david\documents\programacion-1\matriceslibrerias\matricestorneodefutbol\include\equipos.h
+
+1775490280 source:c:\users\david\documents\programacion-1\matriceslibrerias\matricestorneodefutbol\src\torneo.cpp
+	"torneo.h"
+
+1775490280 c:\users\david\documents\programacion-1\matriceslibrerias\matricestorneodefutbol\include\torneo.h
+
+1775606903 source:c:\users\david\documents\programacion-1\matriceslibrerias\matricestorneodefutbol\main.cpp
+	<iostream>
+	"imprimirmatriz.h"
+	<cstdlib>
+	<ctime>
+
+1775660650 c:\users\david\documents\programacion-1\matriceslibrerias\matricestorneodefutbol\include\imprimirmatriz.h
+	<iostream>
+	<iomanip>
+	<cstring>
+	<string>
+
+1775659766 source:c:\users\david\documents\programacion-1\matriceslibrerias\matricestorneodefutbol\src\imprimirmatriz.cpp
+	"imprimirmatriz.h"
+	<cstdlib>
+
+1775606903 source:c:\users\david\documents\programacion-1\tareas progra\matriceslibrerias\matricestorneodefutbol\main.cpp
+	<iostream>
+	"imprimirmatriz.h"
+	<cstdlib>
+	<ctime>
+
+1775660650 c:\users\david\documents\programacion-1\tareas progra\matriceslibrerias\matricestorneodefutbol\include\imprimirmatriz.h
+	<iostream>
+	<iomanip>
+	<cstring>
+	<string>
+
+1775490301 source:c:\users\david\documents\programacion-1\tareas progra\matriceslibrerias\matricestorneodefutbol\src\equipos.cpp
+	"equipos.h"
+
+1775490301 c:\users\david\documents\programacion-1\tareas progra\matriceslibrerias\matricestorneodefutbol\include\equipos.h
+
+1775659766 source:c:\users\david\documents\programacion-1\tareas progra\matriceslibrerias\matricestorneodefutbol\src\imprimirmatriz.cpp
+	"imprimirmatriz.h"
+	<cstdlib>
+
+1775490280 source:c:\users\david\documents\programacion-1\tareas progra\matriceslibrerias\matricestorneodefutbol\src\torneo.cpp
+	"torneo.h"
+
+1775490280 c:\users\david\documents\programacion-1\tareas progra\matriceslibrerias\matricestorneodefutbol\include\torneo.h
+
